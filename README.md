@@ -2,14 +2,6 @@
 
 This project is a lightweight ETL pipeline built using Go, Kafka, and PostgreSQL. It scrapes tabular data from a public website, publishes each row to a Kafka topic, and a Kafka consumer reads and stores the data into a PostgreSQL database.
 
-## Features
-
-- Scrapes structured tabular data from a web page
-- Publishes data to Kafka as individual messages
-- Consumes Kafka messages and inserts them into PostgreSQL
-- Dockerized environment for ease of deployment
-- Kafka UI for monitoring topics and messages
-
 ## Tech Stack
 
 - Go 1.22
