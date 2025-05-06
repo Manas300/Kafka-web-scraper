@@ -105,12 +105,18 @@ To delete all entries from the table:
 DELETE FROM scraped_data;
 ```
 
-## Notes
+## Documentation and References
 
-- This implementation assumes a consistent table structure in the target website.
-- Rows with missing values may result in insert errors unless handled in preprocessing.
-- The project uses the `segmentio/kafka-go` library for Kafka interaction.
+The implementation was supported by the following official documentation and open-source resources:
 
-## License
+Go Standard Library: https://golang.org/doc/
 
-MIT License © 2025 Manas Singh
+Kafka Go Client (kafka-go): https://pkg.go.dev/github.com/segmentio/kafka-go
+
+Apache Kafka Docs: https://kafka.apache.org/documentation/
+
+PostgreSQL Documentation: https://www.postgresql.org/docs/
+
+
+
+
